@@ -1,0 +1,406 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: "Montserrat",sans-serif;
+}
+.institute{
+    
+    height: 105vw;
+    width: 100%;
+}
+.institute-head{
+    background-color:white;
+    height: 15vw;
+    width: 100%;
+    text-align: center;
+    line-height: 4vw;
+    padding-top: 1vw;
+}
+.institute-head h3{
+    color: #235391;
+    font-size: 1.5vw;
+    font-weight: 200;
+}
+.institute-head h1{
+    color: #235391;
+    font-size: 3vw;
+    font-weight: 500;
+}
+.institute-head h6{
+  
+    font-size: 1.5vw;
+    font-weight: 100;
+}
+.institute-card1{
+
+    width: 80%;
+    height: 18vw;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    justify-content: space-between;
+    color: white;
+
+}
+.institute-card11{
+    width: 30%;
+    height: 16vw;
+    padding-left: 1vw;
+    border-radius: 1vw;
+    background-image:
+
+                linear-gradient(360deg,
+
+                    rgb(103, 113, 168),
+
+                    rgba(102, 146, 190, 0)), 
+
+                      url('institue1.png');
+                      background-size:cover ;
+                      display: flex;
+                      flex-direction: column;
+                   
+
+   
+}
+.z{
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-end ;
+    cursor:pointer;
+    transition: 100ms;
+}
+.z h1{
+padding-bottom: 1vw;
+}
+
+.z a{
+    text-decoration: none;
+   margin-bottom: 0.8vw;
+    background-color: white;
+    height: 3vw;
+    width: 3vw;
+    border-radius: 50%;
+    margin-right: 0.5vw;
+
+}
+.z a i{
+    margin-right: 0.3vw;
+    margin-left:0.5vw ;
+    margin-top: 1vw;
+    font-size: 2.5vw;
+    
+}
+.z:hover{
+    filter: grayscale(0.7);
+    transform: scale(1.03);
+}
+.institute-card12{
+    width: 30%;
+    height: 16vw;
+    padding-left: 1vw;
+    border-radius: 1vw;
+    background-image:
+
+    linear-gradient(360deg,
+
+        rgb(103, 113, 168),
+
+        rgba(102, 146, 190, 0)), 
+
+          url('institue2.jpg');
+          background-size:cover ;
+          display: flex;
+          flex-direction: column;
+}
+
+   
+.institute-card13{
+    width: 30%;
+    height: 16vw;
+    padding-left: 1vw;
+    border-radius: 1vw;
+    background-image:
+
+                linear-gradient(360deg,
+
+                    rgb(103, 113, 168),
+
+                    rgba(102, 146, 190, 0)),
+
+                      url('institue3.png');
+                      background-size:cover ;
+                      display: flex;
+                      flex-direction: column;
+}
+
+  
+.institute-card2{
+    
+    width: 80%;
+    height: 18vw;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    justify-content: space-between;
+    color: white;
+
+}
+.institute-card21{
+    width: 30%;
+    height: 16vw;
+    padding-left: 1vw;
+    border-radius: 1vw;
+    background-image:
+
+                linear-gradient(360deg,
+
+                    rgb(103, 113, 168),
+
+                    rgba(102, 146, 190, 0)),
+
+                      url('institue4.jpg');
+                      background-size:cover ;
+                      display: flex;
+                      flex-direction: column;
+}
+
+    
+.institute-card22{
+    width: 30%;
+    height: 16vw;
+    padding-left: 1vw;
+    border-radius: 1vw;
+    background-image:
+
+    linear-gradient(360deg,
+
+        rgb(103, 113, 168),
+
+        rgba(26, 87, 148, 0)), 
+
+          url('institue5.jpg');
+          background-size:cover ;
+          display: flex;
+          flex-direction: column;
+}
+
+   
+.institute-card23{
+    width: 30%;
+    height: 16vw;
+    padding-left: 1vw;
+    border-radius: 1vw;
+    background-image:
+
+    linear-gradient(360deg,
+
+        rgb(103, 113, 168),
+
+        rgba(102, 146, 190, 0)),
+
+          url('institue6.webp');
+          background-size:cover ;
+          display: flex;
+          flex-direction: column;
+}
+
+   
+.institute-card3{
+  
+    width: 80%;
+    height: 18vw;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    justify-content: space-between;
+    color: white;
+
+}
+.institute-card31{
+    width: 30%;
+    height: 16vw;
+    padding-left: 1vw;
+    border-radius: 1vw;
+    background-image:
+
+                linear-gradient(360deg,
+
+                    rgb(103, 113, 168),
+
+                    rgba(102, 146, 190, 0)), 
+
+                      url('institue7.jpg');
+                      background-size:cover ;
+                      display: flex;
+                      flex-direction: column;
+}
+
+   
+.institute-card32{
+    width: 30%;
+    height: 16vw;
+    padding-left: 1vw;
+    border-radius: 1vw;
+    background-image:
+
+    linear-gradient(360deg,
+
+        rgb(103, 113, 168),
+
+        rgba(102, 146, 190, 0)), 
+
+          url('institue8.jpg');
+          background-size:cover ;
+          display: flex;
+          flex-direction: column;
+}
+
+.institute-card33{
+    width: 30%;
+    height: 16vw;
+    padding-left: 1vw;
+    border-radius: 1vw;
+    background-image:
+
+                linear-gradient(360deg,
+
+                    rgb(103, 113, 168),
+
+                    rgba(102, 146, 190, 0)), 
+
+                      url('institue9.jpg');
+                      background-size:cover ;
+                      display: flex;
+                      flex-direction: column;
+}
+
+.institute-card4{
+ 
+    width: 80%;
+    height: 18vw;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    justify-content: space-between;
+    color: white;
+
+}
+.institute-card41{
+    width: 30%;
+    height: 16vw;
+    padding-left: 1vw;
+    border-radius: 1vw;
+    background-image:
+
+    linear-gradient(360deg,
+
+        rgb(103, 113, 168),
+
+        rgba(102, 146, 190, 0)), 
+
+          url('institue10.jpg');
+          background-size:cover ;
+          display: flex;
+          flex-direction: column;
+}
+
+.institute-card42{
+    width: 30%;
+    height: 16vw;
+    padding-left: 1vw;
+    border-radius: 1vw;
+    background-image:
+
+    linear-gradient(360deg,
+
+        rgb(103, 113, 168),
+
+        rgba(102, 146, 190, 0)), 
+
+          url('institue11.jpg');
+          background-size:cover ;
+          display: flex;
+          flex-direction: column;
+}
+
+.institute-card43{
+    width: 30%;
+    height: 16vw;
+    padding-left: 1vw;
+    border-radius: 1vw;
+    background-image:
+
+    linear-gradient(360deg,
+
+        rgb(103, 113, 168),
+        rgba(102, 146, 190, 0)), 
+
+          url('institue12.jpg');
+          background-size:cover ;
+          display: flex;
+          flex-direction: column;
+}
+
+.institute-card5{
+     
+    width: 80%;
+    height: 18vw;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    justify-content: space-between;
+    color: white;
+
+}
+.institute-card51{
+    width: 30%;
+    height: 16vw;
+    padding-left: 1vw;
+    border-radius: 1vw;
+    background-image:
+
+                linear-gradient(360deg,
+
+                    rgb(103, 113, 168),
+
+                    rgba(102, 146, 190, 0)),
+
+                      url('institue13.jpg');
+                      background-size:cover ;
+                      display: flex;
+                      flex-direction: column;
+}
+
+.institute-card52{
+    width: 30%;
+    height: 16vw;
+    padding-left: 1vw;
+    border-radius: 1vw;
+    background-image:
+
+    linear-gradient(360deg,
+
+        rgb(103, 113, 168),
+        rgba(102, 146, 190, 0)), 
+
+          url('institue1.png');
+          background-size:cover ;
+          display: flex;
+          flex-direction: column;
+}
+
+.institute-card53{
+    width: 30%;
+    height: 16vw;
+    padding-left: 1vw;
+    border-radius: 1vw;
+    background-image: url();
+    background-size: cover;
+}
+
